@@ -9,7 +9,7 @@ const Navbar = () => {
     }
     return (
         <>
-            <div className='flex flex-row justify-between p-5 md:px-32 bg-white shadow-[0_3px_10px_rgb(0,0,0,0.2)] align-middle'>
+            <div className='flex flex-row justify-between p-5 md:px-32 bg-white shadow-[0_3px_10px_rgb(0,0,0,0.2)] align-middle sticky top-0'>
                 <div>
                     <Link to='/' className="font-bold text-2xl p-1 cursor-pointer">eLearn</Link>
                 </div>
