@@ -5,6 +5,7 @@ import About from './components/about/About'
 import Courses from './components/courses/Courses'
 import Review from './components/review/Review'
 import Contact from './components/contact/Contact'
+import Footer from './components/Footer'
 
 const App = () => {
   return (
@@ -15,18 +16,19 @@ const App = () => {
           <Home />
         </div>
         <div id='about'>
-          <About/>
+          <About />
         </div>
         <div id='courses'>
-          <Courses/>
+          <Courses />
         </div>
         <div id='reviews'>
-          <Review/>
+          <Review />
         </div>
         <div id='contact'>
-          <Contact/>
+          <Contact />
         </div>
       </main>
+      <Footer />
     </>
   )
 }
